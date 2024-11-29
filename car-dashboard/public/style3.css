@@ -1,0 +1,113 @@
+/* General styles */
+body {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #131D43 0%,
+        #131E41 25%,
+        #1D2A5D 40%,
+        #12224F 68%,
+        #081F44 100%
+    ), #313131; /* Fallback color */
+    color: #fff; /* White text */
+}
+
+.container {
+    width: 100%;
+    max-width: 2100px; /* Increased width to fit the icons */
+    height: 100%;
+    max-height: 434px; /* Full height with a max */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 2px solid #fff; /* Thin white border */
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 60px; /* Adjust as needed */
+    padding: 0 20px; /* Added padding for spacing */
+}
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 25px; /* Align items to the bottom */
+}
+
+
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: -5px;
+    left: 520px;
+    align-items: right;
+    position: relative;
+}
+
+.driveimage {
+    width: 288.15px; /* Scaled down */
+    height: 288.15px; /* Scaled down */
+    transform: scale(0.7);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adjusted padding to match the new height */
+    background-color: #000; /* Black background */
+    height: 14px; /* Reduced height to 80% of the original */
+}
+
+
+.toolbar {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #000; /* Black background */
+}
+
+.icon-button {
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 50px; /* Adjusted spacing between icons */
+    cursor: pointer;
+}
+
+
+
+.icon-button:hover {
+    color: #76c7c0;
+}
+
+
